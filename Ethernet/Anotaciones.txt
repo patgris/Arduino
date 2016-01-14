@@ -1,0 +1,9 @@
+Sensor de temperatura:
+
+Da 10 mV/°c , 200 mV = 20 °c
+
+La salida del sensor varia de 0 a 1023 mV cuando la entrada del pin analógico cambia de 0 a 5000 mV.
+
+Si el sensor devuelve 1023 mV el voltaje de la entrada es de 5000 mV, teniendo mv(x) = entrada*5000/1023
+
+Para obtener la temperatura  se dividen los mV entre 10, temperatura=mv/10
